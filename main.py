@@ -56,9 +56,9 @@ def main():
                 continue
 
             if multa == 0:
-                print("✔️ Sem multa. Condução dentro dos limites.")
+                print("\nSem multa. Condução dentro dos limites.")
             else:
-                print(f"⚠️ Multa a pagar: {multa:.2f}€")
+                print(f"\nMulta a pagar: {multa:.2f}€")
 
         except ValueError:
             print("Erro: Introduza valores numéricos válidos.")
